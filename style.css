@@ -34,6 +34,11 @@ header {
   color: #00D2DF;
 }
 
+.container-menu h1:hover {
+  color: white;
+  cursor: pointer;
+}
+
 .container-menu .links ul li{
   display: inline;
   
@@ -219,6 +224,10 @@ main {
   color: white;
   font-size: 18px;
   line-height: 2;
+}
+
+.container-experiencia ul li a:hover {
+  color: #00D2DF;
 }
 
 .professor{
