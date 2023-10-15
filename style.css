@@ -3,7 +3,14 @@
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
 }
+/* realizar scroll suave na minha pagina html */
+html{
+  scroll-behavior: smooth;
+}
+
+
 /*estilo da parte de navegação*/
 header {
   display: flex;
@@ -13,8 +20,7 @@ header {
 
 .container-grid {
   width: 80%;
-  
-  background-color:#151515;
+  /*border: 1px solid white;*/
 }
 
 .container-menu {
@@ -51,15 +57,22 @@ main {
   background-color: #121212;
 }
 
-.container-nome {
+.container-nome-user {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 734px;
+  align-items: center;
+  justify-content: center ;
+  width: 100%;
   background-image: url(/imagem/Looper\ BG.png);
   background-position: right 80px;
   background-repeat: no-repeat;
   background-color: #121212;
+  height: 734px;
+}
+
+.container-nome {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .nome-do-portfolio {
@@ -168,4 +181,78 @@ main {
 
 .redes-sociais {
   margin-bottom: 30px;
+}
+
+/*estilo da terceira parte EXPERIÊNCIA*/
+.container-cor{
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experiencia{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width:218px ;
+  height: 402px;
+  gap: 20px;
+}
+
+.experiencia h1 {
+  font-size: 24px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container-experiencia ul li {
+  text-transform: none;
+}
+
+.container-experiencia ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.professor{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 630px;
+  height: 205px;
+  color: white;
+}
+
+.texto-professor{
+  margin-top: -50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.professor span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #00D2DF;
+}
+
+/*estilo da quarta parte do main projetos */
+.container-projetos {
+  display: flex;
+  justify-content: center;
+  height: 1325px;
+  width: 100%;
+  background-color: #151515;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
 }
