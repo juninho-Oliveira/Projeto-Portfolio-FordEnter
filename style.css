@@ -358,7 +358,9 @@ footer {
 
 /*treinando @media*/
 @media (max-width:970px) {
-
+  .container-menu h1 {
+    font-size: 25px;
+  }
   header nav {
     display: none;
   }
@@ -407,7 +409,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
     
   }
 
