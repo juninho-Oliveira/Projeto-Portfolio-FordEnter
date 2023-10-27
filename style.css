@@ -355,3 +355,81 @@ footer {
 .container-footer span {
   color: #00D2DF;
 }
+
+/*treinando @media*/
+@media (max-width:970px) {
+
+  header nav {
+    display: none;
+  }
+
+  .container-nome-user {
+    height: 362px;
+    background-image: none;
+  }
+
+  .container-nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nome-do-portfolio {
+    line-height: 1.5;
+    width: 100%;
+  }
+
+  .nome-do-portfolio h1 {
+    font-size: 32px;
+  }
+
+  .nome-do-portfolio h4 p {
+    font-size: 16px;
+  }
+
+  .redes-sociais{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cards-redes {
+    width: 144px;
+    height: 40px;
+  }
+
+  .container-texto-sobre .foto {
+    display: none;
+  }
+
+  /*estilo dos projetos */
+  .container-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .cards-projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 312px;
+  }
+  .imagem-projetos {
+    width: 312px;
+    height: 130px;
+  }
+  #botao-cards {
+    width: 312px;
+  }
+  .texto-projetos h1 {
+    font-size: 18px;
+  }
+
+  .texto-projetos p {
+    font-size: 16px;
+  }
+
+}
