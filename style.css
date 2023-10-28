@@ -17,6 +17,9 @@ header {
   justify-content: center;
   background-color: #121212;
 }
+.menu-icon {
+  display: none;
+}
 
 .container-grid {
   width: 80%;
@@ -361,8 +364,11 @@ footer {
   .container-menu h1 {
     font-size: 25px;
   }
-  header nav {
+  header nav ul {
     display: none;
+  }
+  .menu-icon {
+    display: flex;
   }
 
   .container-nome-user {
@@ -435,6 +441,25 @@ footer {
 
   .texto-projetos p {
     font-size: 16px;
+  }
+
+  .professor .texto-professor {
+    display: none;
+  }
+
+  .professor  {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    padding-top: 50px;
+  }
+
+  #digital-house{
+    color: #00D2DF;
+    font-weight: 600;
+  }
+  .professor span  {
+    display: none;
   }
 
 }
