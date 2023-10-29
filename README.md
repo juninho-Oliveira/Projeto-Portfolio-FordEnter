@@ -11,7 +11,7 @@ Metodologia de avaliação:
 </ul>
 
 link do site no vercel 
-<a href="https://projeto-portfolio-pink.vercel.app/">Projeto Portfólio</a>
+<a href="https://projeto-portfolio-zeta-two.vercel.app/">Projeto Portfólio</a>
 
 O projeto tem como objetivo fazer um site parecido com o modelo do figma ultilizando 
 html e css !!!
